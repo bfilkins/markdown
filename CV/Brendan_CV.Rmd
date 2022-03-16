@@ -51,7 +51,7 @@ tribble(
   "Senior Financial Analyst", "National Life Group", "Burlington, Vermont", "2016-2020", 
   list(
     "Interface with key business stakeholders to leverage data to support strategic decision-making",
-    "Interactive dashboard design in Tableau",
+    "Build Interactive dashboard design in Tableau",
     "ETL and data architecture with Alteryx, SQL and Python",
     "Financial planning and analysis for life insurance operations teams",
     "Customer experience and digital engagement analytics",
