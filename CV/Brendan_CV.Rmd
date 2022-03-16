@@ -8,7 +8,7 @@ email: brendan.e.filkins@gmail.com
 github: bfilkins
 linkedin: brendan-filkins
 headcolor: "414141"
-aboutme: Leader in data science and strategy with 7 years experience generating business value from data through quantitative analysis, data storytelling and bringing business stakeholders together
+aboutme: Leader in data science and strategy with 7 years experience generating actionable insights and business value from data through quantitative analysis, data storytelling and bringing business stakeholders together.
 output: 
   vitae::awesomecv:
     keep_tex: False
