@@ -8,7 +8,7 @@ email: brendan.e.filkins@gmail.com
 github: bfilkins
 linkedin: brendan-filkins
 headcolor: "414141"
-aboutme: Leader in data science and strategy with 7 years experience generating actionable insights and business value from data through quantitative analysis, data storytelling and bringing business stakeholders together.
+aboutme: Leader in data science and strategy with 7 years experience generating actionable insights and business value from data through quantitative analysis, modeling, data storytelling and bringing business stakeholders together.
 output: 
   vitae::awesomecv:
     keep_tex: False
@@ -20,7 +20,6 @@ library(vitae)
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-
 # Experience
 ```{r consulting}
 tribble(
@@ -30,7 +29,7 @@ tribble(
     "Leadership of cross-functional team of Data Scientists, Analysts and UI/UX designer",
     "Optimization for media deployment strategies through marketing spend modeling",
     "Model multi-touch channel attribution, digital personalization and conversion propensity scores",
-    "Develop execuetive level KPI frameworks and dashboards for digital, sales, supplychain and marketing audiences",
+    "Develop executive level KPI frameworks and dashboards for digital, sales, supplychain and marketing audiences",
     "Interface with clients to identify opportunties to use data to create business value, specializing in applied data science",
     "Package development and code review for scalable data engineering pipelines in AWS",
     "A/B testing design and methodology governance",
@@ -44,14 +43,13 @@ tribble(
     "Classification modeling in R for customer propensity modeling",
     "Develop interactive R Shiny apps/dashboards for internal and external use",
     "Survival analysis for customer churn in R to support customer life-time value modeling",
-    "Query Adobe analytics and Google analytics using APIs and clickstream feed data", 
-    "Structure data in AWS for Machine Learning pipelines using Lambda (Python), S3, Athena and Glue",
-    "Consulting project clients include: Audi, Nutrisystem, Proflowers.com"
+    "Structure data in AWS for Machine Learning pipelines, S3, Athena and Glue"
     ),
   "Senior Financial Analyst", "National Life Group", "Burlington, Vermont", "2016-2020", 
   list(
     "Interface with key business stakeholders to leverage data to support strategic decision-making",
     "Build Interactive dashboard design in Tableau",
+    "Complete S\\&P Global Market Intelligence: Certified Insurance Analyst program",
     "ETL and data architecture with Alteryx, SQL and Python",
     "Financial planning and analysis for life insurance operations teams",
     "Customer experience and digital engagement analytics",
@@ -86,5 +84,6 @@ tribble(
   ) %>% 
   detailed_entries(degree, dates, uni, loc, details)
 ```
+
 # Tools
 R, Tableau, AWS (S3, Athena, Glue), Python, Spark, Docker, SQL, Excel, GIT, Alteryx, Jira, HTML, Shiny
