@@ -2,13 +2,13 @@
 name: Brendan Filkins
 date: "`r format(Sys.time(), '%B, %Y')`"
 qualifications: MBA
-position: Data Scientist | Analytics Leader
+#position: Data Analytics Leader
 address: Burlington, Vermont
 email: brendan.e.filkins@gmail.com
 github: bfilkins
 linkedin: brendan-filkins
 headcolor: "414141"
-aboutme: Data scientist and strategy professional with 7 years experience generating actionable insights and business value from data through quantitative analysis, modeling, data storytelling and bringing business stakeholders together.
+aboutme: Data science and strategy leader with 7 years of experience scaling analytics teams and generating business value from data through quantitative analysis, data storytelling and bringing business stakeholders together.
 output: 
   vitae::awesomecv:
     keep_tex: False
@@ -20,9 +20,10 @@ library(vitae)
 knitr::opts_chunk$set(echo = FALSE)
 ```
 # Skills
-Machine Learning - Research Design Methods - Leadership - Cloud Computing Frameworks - Data Visualization  
-<br /> Advanced Analytics (descriptive, diagnostic, predictive, prescriptive) - Statistics - Data Architecture and ETL  
-<br /> Financial Modeling - Web Applications - Dashboard Development - APIs - GIT and Package Development.
+
+Servant Leadership - Research Design Methods - Statistics - Data Visualization - Machine Learning  
+<br /> Advanced Analytics (descriptive, diagnostic, predictive, prescriptive) - Dashboard Development - Data Architecture  
+<br /> Data Governance - Web Applications - Cloud Computing Frameworks - APIs - GIT and Package Development.
 
 # Experience
 ```{r consulting}
@@ -31,11 +32,12 @@ tribble(
   "Manager: Data Science and Client Strategy", "IXIS Digital", "Burlington, Vermont", "July 2021 - Present", 
   list(
     "Lead data science team on collaborative supervised and unsupervised machine learning projects in R and Python",
-    "Use bayesian methods for statistical modeling and hypothesis testing in R",
-    "Develop linear and mixed-integer optimization models with LPsolve to inform marketing channel spend and supply chain decision-making",
+    "Grow start-up data analytics consulting organization through 300\\% increase in revenue with 110\\% increase in expense",
+    "Synthesize complex findings for non-technical stakeholders and executive audiences to emphasize business implications",
+    "Modernize technology stack, data architecture and roadmap to enable economies of scale",
+    #"Use bayesian methods for statistical modeling and hypothesis testing in R",
     #"Model multi-touch channel attribution, digital personalization and conversion propensity scores",
     #"Develop executive level KPI frameworks and dashboards for digital, sales, supply chain and marketing audiences",
-    "Synthesize complex findings for non-technical stakeholders and executive audiences to emphasize business implications",
     "Deploy and maintain production forecasting and classification models in AWS for API access with Docker and EC2",
     #"Support team members in professional development through goal setting and advocating for development opportunities",
     "Consulting clients include: Audi, Nutrisystem, Proflowers.com, PHD media"
