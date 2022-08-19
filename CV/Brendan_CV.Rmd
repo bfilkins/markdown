@@ -8,7 +8,7 @@ email: brendan.e.filkins@gmail.com
 github: bfilkins
 linkedin: brendan-filkins
 headcolor: "414141"
-aboutme: Data scientist and strategy professional with 7 years experience generating actionable insights and business value from data through quantitative analysis, modeling, data storytelling and bringing business stakeholders together.
+aboutme: Data scientist and strategy professional with 7 years of experience generating actionable insights and business value from data through quantitative analysis, modeling, data storytelling and bringing business stakeholders together.
 output: 
   vitae::awesomecv:
     keep_tex: False
@@ -20,9 +20,9 @@ library(vitae)
 knitr::opts_chunk$set(echo = FALSE)
 ```
 # Skills
-Machine Learning - Research Design Methods - Leadership - Cloud Computing Frameworks - Data Visualization  
-<br /> Advanced Analytics (descriptive, diagnostic, predictive, prescriptive) - Statistics - Data Architecture and ETL  
-<br /> Financial Modeling - Web Applications - Dashboard Development - APIs - GIT and Package Development.
+Advanced Analytics (descriptive, diagnostic, predictive, prescriptive), Research Design Methods, Leadership,  
+  <br> Machine Learning, Statistics, Data Architecture and ETL, Microservices, Data Visualization, APIs,  
+  <br> Financial Modeling, Web Applications, Dashboard Development, GIT and Package Development.
 
 # Experience
 ```{r consulting}
@@ -30,9 +30,9 @@ tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
   "Manager: Data Science and Client Strategy", "IXIS Digital", "Burlington, Vermont", "July 2021 - Present", 
   list(
-    "Lead data science team on collaborative supervised and unsupervised machine learning projects in R and Python",
-    "Use bayesian methods for statistical modeling and hypothesis testing in R",
-    "Develop linear and mixed-integer optimization models with LPsolve to inform marketing channel spend and supply chain decision-making",
+    "Lead data science team on collaborative value-driven projects for e-Commerce, Marketing and Automotive clients using R and Python",
+    "Complete exploratory data analysis, statistical modeling and hypothesis testing",
+    #"Develop optimization models to enable marketing channel spend and supply chain decision-making",
     #"Model multi-touch channel attribution, digital personalization and conversion propensity scores",
     #"Develop executive level KPI frameworks and dashboards for digital, sales, supply chain and marketing audiences",
     "Synthesize complex findings for non-technical stakeholders and executive audiences to emphasize business implications",
@@ -78,7 +78,7 @@ tribble(
       "Analytics for supply chain decision-making including demand forecasting with ARIMA",
       "Bayesian research methods and inferential statistics"
       ),
-  "BS in Psychology", "University of Vermont", "Burlington, Vermont", "2012", 
+  "Bachelor of Arts in Psychology", "University of Vermont", "Burlington, Vermont", "2012", 
   list(
     "Course work in organizational psychology, statistics, mathematics (calculus and linear alegbra), research methods, economics, marketing, spanish, biopsychology"
       )

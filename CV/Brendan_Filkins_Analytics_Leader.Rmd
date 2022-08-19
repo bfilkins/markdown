@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 # Skills
 
-Servant Leadership - Research Design Methods - Statistics - Data Visualization - Machine Learning  
+Servant Leadership - Quantitative Research Methods - Statistics - Data Visualization - Machine Learning  
 <br /> Advanced Analytics (descriptive, diagnostic, predictive, prescriptive) - Dashboard Development - Data Architecture  
 <br /> Data Governance - Web Applications - Cloud Computing Frameworks - APIs - GIT and Package Development.
 
@@ -31,10 +31,10 @@ tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
   "Manager: Data Science and Client Strategy", "IXIS Digital", "Burlington, Vermont", "July 2021 - Present", 
   list(
-    "Lead data science team on collaborative supervised and unsupervised machine learning projects in R and Python",
+    "Lead data science team on collaborative value-driven projects for e-Commerce and automotive clients using R and Python",
     "Grow start-up data analytics consulting organization through 300\\% increase in revenue with 110\\% increase in expense",
-    "Synthesize complex findings for non-technical stakeholders and executive audiences to emphasize business implications",
-    "Modernize technology stack, data architecture and roadmap to enable economies of scale",
+    "Distill complex findings for non-technical stakeholders and executive audiences to emphasize business implications",
+    "Modernize technology stack, data architecture and roadmap to optimize cost and enable economies of scale",
     #"Use bayesian methods for statistical modeling and hypothesis testing in R",
     #"Model multi-touch channel attribution, digital personalization and conversion propensity scores",
     #"Develop executive level KPI frameworks and dashboards for digital, sales, supply chain and marketing audiences",
@@ -42,7 +42,7 @@ tribble(
     #"Support team members in professional development through goal setting and advocating for development opportunities",
     "Consulting clients include: Audi, Nutrisystem, Proflowers.com, PHD media"
     ),
-  "Data Scientist", "", "", "July 2020 - July 2021", 
+  "Data Scientist and Strategist", "", "", "July 2020 - July 2021", 
   list(
     "Perform digital and marketing analytics/modeling to support \\$100M annual marketing spend strategies and digital customer experience", 
     "Use time-series modeling and automated anomaly detection in R; identified error in website lead submissions that boosted leads by 25\\%",
