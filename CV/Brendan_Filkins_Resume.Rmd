@@ -9,10 +9,10 @@ email: brendan.e.filkins@gmail.com
 github: bfilkins
 linkedin: brendan-filkins
 headcolor: "414141"
-aboutme: Strategic analytics leader with 9 years of experience generating business value through reproducible quantitative analysis, data strategy, technological innovation, and business collaboration.
+aboutme: Strategic analytics leader with nine years of experience generating business value through reproducible quantitative analysis, data strategy, technological innovation, and business collaboration.
 output: 
   vitae::awesomecv:
-    keep_tex: False
+    keep_tex: true
 ---
 
 ```{r setup, include=FALSE}
@@ -20,6 +20,7 @@ library(tidyverse)
 library(vitae)
 knitr::opts_chunk$set(echo = FALSE)
 ```
+---
 
 # Experience
 ```{r consulting}
@@ -60,7 +61,7 @@ tribble(
     "Performed ETL, data architecture and governance with Alteryx, SQL and Python"
     )
   ) %>% 
-  detailed_entries(role, dates, company, loc, details)
+  vitae::detailed_entries(role, dates, company, loc, details)
 ```
 
 # Skills
@@ -69,17 +70,12 @@ Advanced Analytics (descriptive, diagnostic, predictive and prescriptive) - Stat
 <br /> Analytics Leadership - Data Visualization - Machine Learning  - A/B Testing - Data Architecture  
 <br /> Data Governance - Web Applications - Dashboard Development - APIs - GIT and Package Development
 
+
 # Education
 
 ```{r education}
 tribble(
   ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
-  # "Graduate Certificate in Supply Chain Analytics","Champlain College", "Burlington, Vermont", "2018", 
-  # list(
-  #     "Analytics for decision-making and statistical demand forecasting",
-  #     "Supply chain optimization modeling with linear and mixed-integer programming in R",
-  #     "Statistics for design researchers methods and inferential statistics"
-  #     ),
   "Masters in Business Administration","Champlain College", "Burlington, Vermont", "2016-2017", 
   list(
       "Course work in business leadership, finance, accounting, marketing, statistics, change management and financial decision-making"
@@ -89,8 +85,10 @@ tribble(
     "Course work in organizational psychology, statistics, mathematics (calculus and linear algebra), research methods, economics, marketing, spanish, biopsychology"
       )
   ) %>% 
-  detailed_entries(degree, dates, uni, loc, details)
+  vitae::detailed_entries(degree, dates, uni, loc, details)
 ```
 
+
 # Tools
+
 AWS (ECS, Glue, Lambda, S3, Athena), R (tidyverse, shiny, tidymodels, etc.), SQL, Python (pandas, sklearn, etc,), Docker, Tableau, Postman (APIs), Spark, Adobe Analytics, Google Analytics, GIT, Jira, Confluence, HTML, Alteryx, Excel
